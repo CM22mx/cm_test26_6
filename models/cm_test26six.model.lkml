@@ -2,6 +2,7 @@ connection: "thelook"
 
 # include all the views
 include: "/views/**/*.view.lkml"
+include: "/Dashboards/**/*.dashboard.lookml"
 
 datagroup: cm_test26six_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
